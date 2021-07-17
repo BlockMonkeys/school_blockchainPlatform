@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	bc := NewBlockchain()
 
-	bc.AddBlock("Send 2 Token to NAMEONE")
+	bc.AddBlock("Send 1 Token to NAMEONE")
 	bc.AddBlock("Send 2 Token to NAMETWO")
 
 	for _, block := range bc.blocks {
