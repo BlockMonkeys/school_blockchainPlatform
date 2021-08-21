@@ -1,3 +1,5 @@
 .idea/
 blockchain.db
-README.md
+go.mod
+go.sum
+wallet.dat
